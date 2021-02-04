@@ -1,5 +1,5 @@
 # LaTeX-in-Sublime-Text-3
-A visual guide for setting up a LaTeX editor in Sublime.
+A visual guide for setting up a lightweight LaTeX editor in Sublime.
 
 # Background
 LaTeX is a beautiful tool for academic writing and there are many editing environments built on the Tex platform that are freely available. My favorite editor is Overleaf but there are features that the platform offers that are blocked by a pay-wall. This is a visual guide for setting up a similar LaTeX editing environment in Sublime Text 3 (ST3) using open-source packages for Windows 10. However, build instructions for Mac OS and Linux devices are provided in the official documentation for LaTeXTools.
