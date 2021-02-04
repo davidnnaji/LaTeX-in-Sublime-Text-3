@@ -25,7 +25,7 @@ A full list of features offered by LaTeXTools can be found here. More capabiliti
 
 # Installation
 
-## Install the Required Software
+## 1. Install the Required Software
 ### Sublime Text 3 (x64)
 ### MikTeX or TexLive
 Either will work on Windows. TexLive will take longer to initially install but has all the required packages. MiKTeX is a shorter initial installation but will require further packages to be downloaded on the first build. Pick one and follow the relevant documentation.
@@ -33,13 +33,13 @@ Either will work on Windows. TexLive will take longer to initially install but h
 The Sumatra PDF Viewer is recommended by the developers of LaTeXTools. Its very light-weight and supports both forward and inverse search. It is also the only viewer supported on Windows that is compatible with LaTeXTools.
 
 
-## Install Optional Software
-## Update system PATH Variable
-## Install LaTexTools Package
-## Configure LaTeXTools Settings
-## Setup Sumatra
-## Test Build
-## Install Additional Sublime Packages
+## 2. Install Optional Software
+## 3. Update system PATH Variable
+## 4. Install LaTexTools Package
+## 5. Configure LaTeXTools Settings
+## 6. Setup Sumatra
+## 7. Test Your Build
+## 8. Install Additional Sublime Packages
 ### LaTeXTab
 ### Github Workflow
 
