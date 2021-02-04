@@ -47,6 +47,8 @@ The Sumatra PDF Viewer is recommended by the developers of LaTeXTools. Its very 
 
 
 # Bonus Tips and Tricks
+## Pandas Dateframe to LaTeX Table
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_latex.html
 
 # References 
 [1] LaTeXTools Documentation. Available: https://latextools.readthedocs.io/en/latest/ 
