@@ -46,6 +46,8 @@ The Sumatra PDF Viewer is recommended by the developers of LaTeXTools. Its very 
 # Additional Resources
 
 
+# Bonus Tips and Tricks
+
 # References 
 [1] LaTeXTools Documentation. Available: https://latextools.readthedocs.io/en/latest/ 
 
