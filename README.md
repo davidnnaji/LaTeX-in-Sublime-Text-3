@@ -26,7 +26,7 @@ A full list of features offered by LaTeXTools can be found [here](https://latext
 
 # Installation
 
-## Install the Required Software
+## 1. Install the Required Software
 ### Sublime Text 3 (x64)
 **[Sublime Text](https://www.sublimetext.com/)** is a cross-platform source code editor that support many programming languages and markup languages including LaTeX. The latest version is ST3.
 
@@ -48,7 +48,7 @@ The system `PATH` variable can be modified in the Command Prompt or through Syst
 
 Follow the same procedure if you plan on installing [Ghostscript](###Ghostscript) or ImageMagick.
 
-## Install Package Control and the LaTexTools Package
+## 2. Install Package Control and the LaTexTools Package
 The easiest way to install the LaTeXTool package is with [Package Control](https://packagecontrol.io/installation). Package Control makes it easy to install and remove ST3 packages. Once installed, 
 
 1. Open the command palette again, type `Package Control: Install Package`, and press `enter`
@@ -56,7 +56,7 @@ The easiest way to install the LaTeXTool package is with [Package Control](https
 
 <img src="images/latextoolsinstall.png" alt="LaTeXTools Lookup" style="width: 300px;"/>
 
-## Configure LaTeXTools Settings
+## 3. Configure LaTeXTools Settings
 To open the LaTeXTools User settings in Sublime navigate to `Preferences > Package Settings > LaTeXTools > Settings-User`. Make the following adjustments depending on your Tex distribution and preferences. It's advisable to adjust anything else only after your first successful build. The user settings file is well commented so you shouldn't have too much trouble figuring out what you want.
 
 ### Preview settings
@@ -91,14 +91,14 @@ Optional: `"display_log" : true,`
 `"viewer": "sumatra",`
 `"open_pdf_on_build": true,`
 
-## Link Sumatra to ST3
+## 4. Link Sumatra to ST3
 One of the great features of LaTeXTools is inverse search. This is the ability to double-click anywhere in the PDF preview and automatically be guided to the corresponding line in the editor. To set up inverse search, run the following command in the Command Prompt.
 
 `sumatrapdf.exe -inverse-search "\"C:\Program Files\Sublime Text 3\sublime_text.exe\" \"%f:%l\""`
 
 Be sure to replace the path in the example with the actual location of the sublime text executable file.
 
-## Test Build
+## 5. Test Your Build
 - Change the build system to Latex `Tools > Build System > LaTeX`
 - Download the example Latex files or create your own
 - Click `Tools > Build` or `Ctrl+B` to build.
@@ -108,7 +108,7 @@ Be sure to replace the path in the example with the actual location of the subli
 #### Missing Packages Build Error
 To address this error simply proceed with the installation of the missing packages. Do not cancel them.
 
-## Install Optional Software
+## 5. Install Optional Software
 ### Ghostscript
 **[Ghostscript](https://ghostscript.com/download/gsdnld.html)** allows equation previewing in the Sublime editor. If you downloaded MiKTeX or TexLive Ghostscript will already be installed. If you are experiencing troubles confirm that your system `PATH` includes references to the Tex distribution you selected (MiKTeX or TexLive). If you are still lacking math preview functionality, install the Ghostscript general public release.
 
