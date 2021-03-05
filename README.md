@@ -1,5 +1,6 @@
 # LaTeX-in-Sublime-Text-3
 A visual guide for making LaTeX editor in Sublime.
+
 by David Nnaji
 
 # Background
