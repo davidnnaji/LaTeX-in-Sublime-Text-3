@@ -5,6 +5,8 @@ by David Nnaji
 
 ![Profile View Counter](https://komarev.com/ghpvc/?username=davidnnaji&color=yellow&label=Page+Views)
 
+UPDATE: I have since learned that VS Code is simply better in basically all metrics. I recommend it over Sublime.
+
 # Background
 LaTeX is a beautiful tool for academic writing and there are many editing environments built on the Tex platform that are freely available. My favorite editor is Overleaf but there are features that the platform offers that are blocked by a pay-wall. This is a visual guide for setting up a similar LaTeX editing environment in Sublime Text 3 (ST3) using open-source packages for Windows 10. Build instructions for Mac OS and Linux devices are provided in the official documentation for LaTeXTools.
 
